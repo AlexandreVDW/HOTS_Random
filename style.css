@@ -1,11 +1,45 @@
-.pool{
-    display: flex;
-    flex-wrap: wrap;
-    .heros{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 5px;
-    }
+@charset "UTF-8";
+body {
+  /* Styles pour la boîte modale */
 }
+body .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body .modal .modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+body .modal .modal-content .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+body .modal .modal-content .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+body .pool {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .pool .heros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */

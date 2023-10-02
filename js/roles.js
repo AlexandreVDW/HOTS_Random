@@ -1,0 +1,1 @@
+let roles = ["Guerrier", "Tank", "Soigneur", "Assassin", "Distance"]
