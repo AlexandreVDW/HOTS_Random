@@ -33,8 +33,8 @@ body .modal .modal-content .close:hover {
   cursor: pointer;
 }
 body .pool {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14%;
 }
 body .pool .heros {
   display: flex;
@@ -42,4 +42,7 @@ body .pool .heros {
   align-items: center;
   justify-content: center;
   margin: 5px;
+}
+body .pool .heros h2 {
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
