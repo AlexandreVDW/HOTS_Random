@@ -36,7 +36,7 @@ let heroes = [
         roles : "Healer",
     },
     {
-        nom: "Les Vikings Perdus",
+        nom: "Vikings",
         image: "./img/nexus/the-lost-vikings.png",
         univers: "Nexus",
         roles : "Soutien",

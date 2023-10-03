@@ -1,24 +1,59 @@
 body{
     /* Styles pour la boîte modale */
+    margin: 5%;
+    text-align: center;
+    background-color: #190938;
+    h2{
+        color:#E3F3FF;
+    }
+    .filter{
+        color:#E3F3FF;
+    }
     .modal {
         display: none;
         position: fixed;
         z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
+        left: 25%;
+        top: 10%;
+        width: 50%;
         height: 100%;
         overflow: auto;
-        background-color: rgba(0,0,0,0.7);
 
         .modal-content {
-            background-color: #fefefe;
-            margin: 10% auto;
+            background-image: url(./img/bg.jpg);
+            margin: 5% auto;
             padding: 20px;
-            border: 1px solid #888;
+            border: 5px outset #94B9F0;
             width: 60%;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
+            .hero-details{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                #random-hero-name{
+                    color:#E3F3FF;
+                    font-size: 30px;
+                    padding: 1%;
+                    margin: 0;
+                    text-align: center;
+                }
+                #random-hero-image{
+                    border: 5px outset #94B9F0;
+                    border-radius: 50%;
+                    margin: 0%;
+                }
+                #random-hero-universe{
+                    padding: 1%;
+                    margin: 0;
+                    color:#E3F3FF;
+                }
+                #random-hero-roles{
+                    padding: 1%;
+                    margin: 0;
+                    color:#E3F3FF;
+                }
+            }
             .close {
                 color: #aaaaaa;
                 float: right;
@@ -35,15 +70,28 @@ body{
     }
     .pool{
         display: grid;
-        grid-template-columns: 14% 14% 14% 14% 14% 14%;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        grid-gap: 2%;
+        padding: 3%;
+        color:#E3F3FF;
         .heros{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             margin: 5px;
+            justify-content: space-between;
+            border: 5px outset #94B9F0;
+            background-color: #362D5D;
             h2{
                 text-align: center;
+            }
+            .category{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5px;
             }
         }
     }
