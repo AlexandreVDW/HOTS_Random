@@ -1,3 +1,11 @@
+// Fonction pour trier les héros par nom
+function sortHeroesByName() {
+  heroes.sort((a, b) => a.nom.localeCompare(b.nom));
+}
+
+// Appeler la fonction pour trier les héros par nom initialement
+sortHeroesByName();
+
 // Fonction pour afficher les héros en fonction des filtres sélectionnés
 function filterHeroes() {
   const genreFilter = document.querySelector('input[name="genre"]:checked').value;
