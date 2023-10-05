@@ -1,43 +1,102 @@
+@font-face {
+    font-family: 'Blizzard';
+    src: url('font/Blizzard-Regular.eot');
+    src: url('font/Blizzard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Blizzard-Regular.woff2') format('woff2'),
+        url('font/Blizzard-Regular.woff') format('woff'),
+        url('font/Blizzard-Regular.ttf') format('truetype'),
+        url('font/Blizzard-Regular.svg#Blizzard-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     /* Styles pour la boîte modale */
     margin: 5%;
     text-align: center;
     background-color: #190938;
+    font-family: 'Blizzard';
     h2{
         color:#E3F3FF;
     }
     .filter {
         color: #E3F3FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        #random-button{
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            background-image: url('./img/random.svg');
+            background-size: cover; /* Pour ajuster la taille de l'image au bouton */
+            border: none; /* Supprimez les bordures par défaut du bouton si nécessaire */
+            cursor: pointer; /* Changez le curseur lorsque vous survolez le bouton */   
+        }
+        .role{
+            // Add styles for hidden radio input
+            label {
+                position: relative;
+                cursor: pointer;
 
-        // Add styles for hidden radio input
-        label {
-            position: relative;
-            cursor: pointer;
+                input[type="radio"].genre-filter {
+                    position: absolute;
+                    left: -9999px;
+                }
 
-            input[type="radio"].genre-filter {
-                position: absolute;
-                left: -9999px;
-            }
+                input[type="radio"].role-filter {
+                    position: absolute;
+                    left: -9999px;
+                }
 
-            input[type="radio"].role-filter {
-                position: absolute;
-                left: -9999px;
-            }
+                /* Styles for the checked genre radio buttons */
+                input[type="radio"].genre-filter:checked + svg {
+                    fill: white; /* Change the SVG fill color to white */
+                }
 
-            /* Styles for the checked genre radio buttons */
-            input[type="radio"].genre-filter:checked + svg {
-                fill: white; /* Change the SVG fill color to white */
-            }
+                /* Styles for the checked role radio buttons */
+                input[type="radio"].role-filter:checked + svg {
+                    fill: white; /* Change the SVG fill color to white */
+                }
 
-            /* Styles for the checked role radio buttons */
-            input[type="radio"].role-filter:checked + svg {
-                fill: white; /* Change the SVG fill color to white */
-            }
-
-            svg{
-                fill: lightgray;
+                svg{
+                    fill: darkslategrey ;
+                }
             }
         }
+        .genre{
+            // Add styles for hidden radio input
+            label {
+                position: relative;
+                cursor: pointer;
+
+                input[type="radio"].genre-filter {
+                    position: absolute;
+                    left: -9999px;
+                }
+
+                input[type="radio"].role-filter {
+                    position: absolute;
+                    left: -9999px;
+                }
+
+                /* Styles for the checked genre radio buttons */
+                input[type="radio"].genre-filter:checked + svg {
+                    fill: white; /* Change the SVG fill color to white */
+                }
+
+                /* Styles for the checked role radio buttons */
+                input[type="radio"].role-filter:checked + svg {
+                    fill: white; /* Change the SVG fill color to white */
+                }
+
+                svg{
+                    fill: darkslategrey ;
+                }
+            }
+        }   
     }
     .modal {
         display: none;

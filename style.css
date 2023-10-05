@@ -1,38 +1,83 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Blizzard";
+  src: url("font/Blizzard-Regular.eot");
+  src: url("font/Blizzard-Regular.eot?#iefix") format("embedded-opentype"), url("font/Blizzard-Regular.woff2") format("woff2"), url("font/Blizzard-Regular.woff") format("woff"), url("font/Blizzard-Regular.ttf") format("truetype"), url("font/Blizzard-Regular.svg#Blizzard-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   /* Styles pour la boîte modale */
   margin: 5%;
   text-align: center;
   background-color: #190938;
+  font-family: "Blizzard";
 }
 body h2 {
   color: #E3F3FF;
 }
 body .filter {
   color: #E3F3FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-body .filter label {
+body .filter #random-button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url("./img/random.svg");
+  background-size: cover; /* Pour ajuster la taille de l'image au bouton */
+  border: none; /* Supprimez les bordures par défaut du bouton si nécessaire */
+  cursor: pointer; /* Changez le curseur lorsque vous survolez le bouton */
+}
+body .filter .role label {
   position: relative;
   cursor: pointer;
   /* Styles for the checked genre radio buttons */
   /* Styles for the checked role radio buttons */
 }
-body .filter label input[type=radio].genre-filter {
+body .filter .role label input[type=radio].genre-filter {
   position: absolute;
   left: -9999px;
 }
-body .filter label input[type=radio].role-filter {
+body .filter .role label input[type=radio].role-filter {
   position: absolute;
   left: -9999px;
 }
-body .filter label input[type=radio].genre-filter:checked + svg {
+body .filter .role label input[type=radio].genre-filter:checked + svg {
   fill: white; /* Change the SVG fill color to white */
 }
-body .filter label input[type=radio].role-filter:checked + svg {
+body .filter .role label input[type=radio].role-filter:checked + svg {
   fill: white; /* Change the SVG fill color to white */
 }
-body .filter label svg {
-  fill: lightgray;
+body .filter .role label svg {
+  fill: darkslategrey;
+}
+body .filter .genre label {
+  position: relative;
+  cursor: pointer;
+  /* Styles for the checked genre radio buttons */
+  /* Styles for the checked role radio buttons */
+}
+body .filter .genre label input[type=radio].genre-filter {
+  position: absolute;
+  left: -9999px;
+}
+body .filter .genre label input[type=radio].role-filter {
+  position: absolute;
+  left: -9999px;
+}
+body .filter .genre label input[type=radio].genre-filter:checked + svg {
+  fill: white; /* Change the SVG fill color to white */
+}
+body .filter .genre label input[type=radio].role-filter:checked + svg {
+  fill: white; /* Change the SVG fill color to white */
+}
+body .filter .genre label svg {
+  fill: darkslategrey;
 }
 body .modal {
   display: none;
