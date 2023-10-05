@@ -11,6 +11,29 @@ body h2 {
 body .filter {
   color: #E3F3FF;
 }
+body .filter label {
+  position: relative;
+  cursor: pointer;
+  /* Styles for the checked genre radio buttons */
+  /* Styles for the checked role radio buttons */
+}
+body .filter label input[type=radio].genre-filter {
+  position: absolute;
+  left: -9999px;
+}
+body .filter label input[type=radio].role-filter {
+  position: absolute;
+  left: -9999px;
+}
+body .filter label input[type=radio].genre-filter:checked + svg {
+  fill: white; /* Change the SVG fill color to white */
+}
+body .filter label input[type=radio].role-filter:checked + svg {
+  fill: white; /* Change the SVG fill color to white */
+}
+body .filter label svg {
+  fill: lightgray;
+}
 body .modal {
   display: none;
   position: fixed;

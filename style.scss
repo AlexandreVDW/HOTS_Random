@@ -6,8 +6,38 @@ body{
     h2{
         color:#E3F3FF;
     }
-    .filter{
-        color:#E3F3FF;
+    .filter {
+        color: #E3F3FF;
+
+        // Add styles for hidden radio input
+        label {
+            position: relative;
+            cursor: pointer;
+
+            input[type="radio"].genre-filter {
+                position: absolute;
+                left: -9999px;
+            }
+
+            input[type="radio"].role-filter {
+                position: absolute;
+                left: -9999px;
+            }
+
+            /* Styles for the checked genre radio buttons */
+            input[type="radio"].genre-filter:checked + svg {
+                fill: white; /* Change the SVG fill color to white */
+            }
+
+            /* Styles for the checked role radio buttons */
+            input[type="radio"].role-filter:checked + svg {
+                fill: white; /* Change the SVG fill color to white */
+            }
+
+            svg{
+                fill: lightgray;
+            }
+        }
     }
     .modal {
         display: none;
