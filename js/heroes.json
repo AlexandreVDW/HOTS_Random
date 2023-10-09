@@ -1,11 +1,5 @@
 [
     {
-        "nom": "Thrall",
-        "image": "./img/warcraft/thrall.png",
-        "univers": "Warcraft",
-        "roles" : "Guerrier"
-    },
-    {
         "nom": "Sonya",
         "image": "./img/diablo/sonya.png",
         "univers": "Diablo",
@@ -22,12 +16,6 @@
         "image": "./img/starcraft/artanis.png",
         "univers": "Starcraft",
         "roles" : "Guerrier"
-    },
-    {
-        "nom": "Chen",
-        "image": "./img/warcraft/chen.png",
-        "univers": "Warcraft",
-        "roles" : "Tank"
     },
     {
         "nom": "Ana",
@@ -267,5 +255,287 @@
         "image": "./img/starcraft/stukov.png",
         "univers": "Starcraft",
         "roles" : "Healer"
+    },
+    {
+        "nom": "Tassadar",
+        "image": "./img/starcraft/tassadar.png",
+        "univers": "Starcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Tychus",
+        "image": "./img/starcraft/tychus.png",
+        "univers": "Starcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Zagara",
+        "image": "./img/starcraft/zagara.png",
+        "univers": "Starcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Zeratul",
+        "image": "./img/starcraft/zeratul.png",
+        "univers": "Starcraft",
+        "roles" : "Assassin"
+    },
+    {
+        "nom": "Anub'arak",
+        "image": "./img/warcraft/anubarak.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Arthas",
+        "image": "./img/warcraft/arthas.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Muradin",
+        "image": "./img/warcraft/muradin.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Mal'Ganis",
+        "image": "./img/warcraft/malganis.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Cho",
+        "image": "./img/warcraft/cho.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Garrosh",
+        "image": "./img/warcraft/garrosh.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "E.T.C",
+        "image": "./img/warcraft/etc.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Balafré",
+        "image": "./img/warcraft/stitches.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Lardeur",
+        "image": "./img/warcraft/lardeur.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Aile de Mort",
+        "image": "./img/warcraft/deathwing.png",
+        "univers": "Warcraft",
+        "roles" : "Tank"
+    },
+    {
+        "nom": "Yrel",
+        "image": "./img/warcraft/yrel.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Ragnaros",
+        "image": "./img/warcraft/ragnaros.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Varian",
+        "image": "./img/warcraft/varian.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Rexxar",
+        "image": "./img/warcraft/rexxar.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Thrall",
+        "image": "./img/warcraft/thrall.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Chen",
+        "image": "./img/warcraft/chen.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Gazleu",
+        "image": "./img/warcraft/gazlowe.png",
+        "univers": "Warcraft",
+        "roles" : "Guerrier"
+    },
+    {
+        "nom": "Medivh",
+        "image": "./img/warcraft/medivh.png",
+        "univers": "Warcraft",
+        "roles" : "Soutien"
+    },
+    {
+        "nom": "Alexstrasza",
+        "image": "./img/warcraft/alexstrasza.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Anduin",
+        "image": "./img/warcraft/anduin.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Blanchetête",
+        "image": "./img/warcraft/whitemane.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Rehgar",
+        "image": "./img/warcraft/rehgar.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Luisaille",
+        "image": "./img/warcraft/brightwing.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Li Li",
+        "image": "./img/warcraft/li-li.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Malfurion",
+        "image": "./img/warcraft/malfurion.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Tyrande",
+        "image": "./img/warcraft/tyrande.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Uther",
+        "image": "./img/warcraft/uther.png",
+        "univers": "Warcraft",
+        "roles" : "Healer"
+    },
+    {
+        "nom": "Khel'Thuzad",
+        "image": "./img/warcraft/kelthuzad.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Zul'jin",
+        "image": "./img/warcraft/zuljin.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Gul'dan",
+        "image": "./img/warcraft/guldan.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Chromie",
+        "image": "./img/warcraft/chromie.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Grisetête",
+        "image": "./img/warcraft/greymane.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Lunara",
+        "image": "./img/warcraft/lunara.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Gall",
+        "image": "./img/warcraft/gall.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Kael'thas",
+        "image": "./img/warcraft/kaelthas.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Sylvanas",
+        "image": "./img/warcraft/sylvanas.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Jaina",
+        "image": "./img/warcraft/jaina.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Falstad",
+        "image": "./img/warcraft/falstad.png",
+        "univers": "Warcraft",
+        "roles" : "Distance"
+    },
+    {
+        "nom": "Maiev",
+        "image": "./img/warcraft/maiev.png",
+        "univers": "Warcraft",
+        "roles" : "Assassin"
+    },
+    {
+        "nom": "Valeera",
+        "image": "./img/warcraft/valeera.png",
+        "univers": "Warcraft",
+        "roles" : "Assassin"
+    },
+    {
+        "nom": "Samuro",
+        "image": "./img/warcraft/samuro.png",
+        "univers": "Warcraft",
+        "roles" : "Assassin"
+    },
+    {
+        "nom": "Bourbie",
+        "image": "./img/warcraft/murky.png",
+        "univers": "Warcraft",
+        "roles" : "Assassin"
+    },
+    {
+        "nom": "Illidan",
+        "image": "./img/warcraft/illidan.png",
+        "univers": "Warcraft",
+        "roles" : "Assassin"
     }
 ]
