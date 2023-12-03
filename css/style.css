@@ -20,6 +20,7 @@ body h2 {
 body .filter {
   color: #E3F3FF;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
@@ -28,7 +29,7 @@ body .filter #random-button {
   width: 40px;
   height: 40px;
   background: transparent;
-  background-image: url("./img/random.svg");
+  background-image: url("../img/random.svg");
   background-size: cover; /* Pour ajuster la taille de l'image au bouton */
   border: none; /* Supprimez les bordures par défaut du bouton si nécessaire */
   cursor: pointer; /* Changez le curseur lorsque vous survolez le bouton */
@@ -83,14 +84,15 @@ body .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  left: 25%;
-  top: 10%;
-  width: 50%;
-  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 50vh;
   overflow: auto;
 }
 body .modal .modal-content {
-  background-image: url(./img/bg.jpg);
+  background-image: url("../img/bg.jpg");
   margin: 5% auto;
   padding: 20px;
   border: 5px outset #94B9F0;
@@ -137,11 +139,13 @@ body .modal .modal-content .close:hover {
   cursor: pointer;
 }
 body .pool {
-  display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  display: flex;
+  flex-wrap: wrap;
   grid-gap: 2%;
   padding: 3%;
   color: #E3F3FF;
+  align-items: center;
+  justify-content: center;
 }
 body .pool .heros {
   display: flex;
@@ -155,6 +159,7 @@ body .pool .heros {
 }
 body .pool .heros h2 {
   text-align: center;
+  font-size: medium;
 }
 body .pool .heros .category {
   display: flex;
@@ -162,4 +167,8 @@ body .pool .heros .category {
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+}
+body .pool .heros img {
+  width: 80%;
+  margin: 0%;
 }/*# sourceMappingURL=style.css.map */
