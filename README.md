@@ -16,3 +16,7 @@ HOTS_Random is a project that I started to learn Javascript and the dom. I have 
 - How do filter with SVG
 - How to make a randomiser with Javascript
 - Use Scss to style the page
+
+## Deployment
+
+This project is deployed on Github Pages. You can find it [here](https://alexandrevdw.github.io/HOTS_Random/).
