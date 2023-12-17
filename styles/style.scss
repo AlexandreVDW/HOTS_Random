@@ -108,7 +108,7 @@ body{
         transform: translate(-50%, -50%);
         width: 80vw; // Adjust this as needed
         height: 50vh; // Adjust this as needed
-        overflow: auto;
+        overflow: none;
 
         .modal-content {
             background-image: url("../img/bg.jpg");

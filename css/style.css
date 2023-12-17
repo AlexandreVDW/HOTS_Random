@@ -89,7 +89,7 @@ body .modal {
   transform: translate(-50%, -50%);
   width: 80vw;
   height: 50vh;
-  overflow: auto;
+  overflow: none;
 }
 body .modal .modal-content {
   background-image: url("../img/bg.jpg");
